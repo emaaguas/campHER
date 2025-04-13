@@ -21,45 +21,55 @@
 
   </head>
   <body class="h-100 d-flex flex-column">
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
 
-    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="example.html">Example</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item active" aria-current="page" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
-            </li>
+    <!-- Navbar toggler for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links and logo -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+        
+        <!-- Logo + Home link -->
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link d-flex align-items-center" href="index.html">
+            <img src="images/brandlogo.jpg" alt="Logo" style="height: 50px;" class="me-2">
+            Home
+          </a>
+        </li>
+
+        <!-- Other nav links -->
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link" href="example.html">Example</a>
+        </li>
+        <li class="nav-item dropdown d-flex align-items-center">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            UX Patterns
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
+            <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
+            <li><a class="dropdown-item" href="cards.html">Cards</a></li>
           </ul>
-        </div>
-      </div>
-    </nav>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link" href="corporate.html">Corporate</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <!-- End of navigation bar -->
 
     <section class="container my-4">
@@ -68,7 +78,7 @@
 
   <!-- Top full-width image -->
   <div class="mb-4 text-center">
-    <img src="images/camping-top.jpg" class="img-fluid rounded" alt="Camping Safety">
+    <img src="images/campnight.jpeg" class="img-fluid rounded" alt="Camping Safety">
   </div>
 
   <!-- Safety Tips Heading -->
@@ -131,7 +141,7 @@
           <p class="lead">Peace of mind under the stars</p>
           <p class="mt-5">
             <a href="#" class="btn btn-lg btn-warning m-1 d-block d-sm-inline">Join our community</a>
-            <a href="#" class="btn btn-lg btn-danger m-1 d-block d-sm-inline">Give us feedback</a>
+            <a href="#" class="btn btn-lg btn-danger m-1 d-block d-sm-inline"></a>
           </p>
         </div>
       </div>
