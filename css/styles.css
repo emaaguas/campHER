@@ -5,7 +5,7 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
+	font-family: Pangolin, sans-serif;
 	background-color: #fffcf8;
 }
 
@@ -41,4 +41,16 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+
+.card-img-custom {
+	width: 100%;
+	object-fit: cover;
+	height: 400px;
+ }
+
+.cover-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
