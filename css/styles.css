@@ -54,3 +54,47 @@ footer a:hover {
   height: auto;
   display: block;
 }
+
+.btn-change-color {
+  color: #95A387;
+  border-color: #95A387;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-change-color:hover {
+  background-color: #95A387;
+  color: #fff;
+}
+
+.custom-green-btn {
+  background-color: #95A387; /* Bootstrap's 'success' green */
+  color: #fff;
+  border: 1px solid #95A387;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-green-btn:hover {
+  background-color: transparent;
+  color: #95A387;
+  border: 1px solid #95A387;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3); /* Optional: adds slight dark overlay for readability */
+  color: #fff;
+}
+
+.quote-text {
+  font-size: 2rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  max-width: 90%;
+}
+
