@@ -21,33 +21,48 @@
 <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet"> 
   </head>
   <body class="h-100 d-flex flex-column">
- <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-  <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/campherlogo copy.png" width="80" alt="Breda University of Applied Sciences">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="example.html">Experiences&nbsp;</a>
-            </li>
-          <li class="nav-item d-flex align-items-center">
-  <a class="nav-link active" aria-current="page" href="hero.html#hero">Safety tips</a>
-</li>
-            <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
-            </li>
-          </ul>
-        </div>
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+
+    <!-- Navbar toggler for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links and logo -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
+        
+        <!-- Logo + Home link -->
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link d-flex align-items-center" href="index.html">
+            <img src="images/campherlogo.png" alt="Logo" style="width: 80px;" class="me-2">
+            Home
+          </a>
+        </li>
+
+        <!-- Other nav links -->
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link" href="example.html">Experiences</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link" href="#" id="navbarSafetytips" role="button"
+            aria-expanded="false">
+            Safety tips
+          </a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link" href="corporate.html">Corporate</a>
+        </li>
+      </ul>
     </div>
-    </nav>
+  </div>
+</nav>
     <!-- End of navigation bar -->
 
     <section class="container my-4">
@@ -56,7 +71,7 @@
 
   <!-- Top full-width image -->
   <div class="mb-4 text-center">
-    <img src="images/camper5.jpg" class="img-fluid rounded" alt="Camping Safety" width="800">
+    <img src="images/pexels-koolshooters-8974390.jpg" class="img-fluid rounded" alt="Camping Safety">
   </div>
 
   <!-- Safety Tips Heading -->
@@ -65,7 +80,7 @@
   <!-- Box with image and text side by side -->
   <div class="row align-items-center mb-5">
     <div class="col-md-6">
-      <img src="images/s2.jpeg" class="img-fluid rounded shadow-sm" alt="Solo Camping">
+      <img src="images/solocamper.jpg" class="img-fluid rounded shadow-sm" alt="Solo Camping">
     </div>
     <div class="col-md-6">
       <h4><em>Stay Aware, Stay Prepared</em></h4>
@@ -122,7 +137,8 @@
           <h1 class="display-3">CampHer</h1>
           <p class="lead">Peace of mind under the stars</p>
           <p class="mt-5">
-           <a href="example.html" style="background-color: #F3B23F; border-color:#F3B23F" class="btn btn-lg btn-warning m-1 d-block d-sm-inline">Join our community</a>
+            <a href="#" style="background-color: #F3B23F; border-color:#F3B23F" class="btn btn-lg btn-warning m-1 d-block d-sm-inline">Join our community</a>
+            <a href="#" style="background-color: #8F7E62; border-color:#8F7E62" class="btn btn-lg btn-danger m-1 d-block d-sm-inline">Explore our workshops</a>
           </p>
         </div>
       </div>
